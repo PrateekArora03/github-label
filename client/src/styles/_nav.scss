@@ -1,0 +1,30 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.label-btn {
+  color: whitesmoke;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(19, 17, 17);
+  &:hover {
+    background-color: lighten(rgb(19, 17, 17), 10%);
+  }
+  &:focus {
+    background-color: lighten(rgb(19, 17, 17), 20%);
+  }
+}
+.search {
+  width: 30%;
+  input {
+    outline: none;
+    border: 2px solid rgb(70, 66, 66);
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    padding: 0.25rem 1rem;
+  }
+}

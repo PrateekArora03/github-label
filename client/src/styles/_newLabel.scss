@@ -1,0 +1,60 @@
+.form-container {
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    .form-input-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      padding: 1rem 0.5rem;
+
+      label {
+        font-weight: 700;
+      }
+      input {
+        width: 10rem;
+        outline: none;
+        border: 2px solid rgb(70, 66, 66);
+        border-radius: 4px;
+        height: 100%;
+        font-size: 100%;
+        padding: 0.5rem 1rem;
+      }
+      .pick-random-color {
+        height: 2rem;
+        border: none;
+        width: auto;
+        width: 2rem;
+        border-radius: 1rem;
+        margin-right: 0.5rem;
+      }
+    }
+
+    .form-button-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 1rem;
+
+      button {
+        color: whitesmoke;
+        padding: 0.5rem 1rem;
+        margin: 0 0.5rem;
+        border-radius: 5px;
+
+        cursor: pointer;
+        border: 0;
+        background-color: rgb(19, 17, 17);
+        &:hover {
+          background-color: lighten(rgb(19, 17, 17), 10%);
+        }
+        &:focus {
+          background-color: lighten(rgb(19, 17, 17), 20%);
+        }
+      }
+    }
+  }
+}

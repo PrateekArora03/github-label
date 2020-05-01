@@ -1,0 +1,54 @@
+.label-container {
+  width: 100%;
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+  padding-right: 32px;
+  margin-top: 1.5rem;
+}
+.label-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  margin: -1px -1px 0;
+  background-color: #f6f8fa;
+  border: 1px solid #d1d5da;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.label-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  border-top-color: transparent;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-top: 1px solid #e1e4e8;
+  .label-name {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 700;
+  }
+  .label-option {
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+    border: 0;
+    text-decoration: underline;
+    font-weight: 700;
+  }
+  .button-break {
+    height: 1rem;
+    width: 2px;
+    background: #444444;
+    display: inline-block;
+    margin: 0 0.5rem;
+  }
+  .action {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
