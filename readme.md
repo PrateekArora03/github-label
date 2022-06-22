@@ -1,4 +1,5 @@
 ## GitHub Label
+Build a Github label🏷 feature using React JS(Hooks and Context API for state management) and Express JS.
 
 #### Live Demo :- https://github-label.herokuapp.com/
 
